@@ -10,6 +10,7 @@ describe('Test2', function() {
      cy.visit('https://www.vision-box.com/')
      cy.viewport('ipad-mini')
      cy.screenshot('IPAD-MINI Screenshot')
+     cy.log('thats all the viewports done')
 
     
 

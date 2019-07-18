@@ -10,5 +10,6 @@ describe('Test1', function() {
         cy.contains('About').click()
         cy.contains('Contact us').click()
         cy.contains('We are Hiring').click()
+        cy.log('all the header links checked')
     })
   })
